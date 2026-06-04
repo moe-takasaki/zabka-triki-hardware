@@ -20,6 +20,30 @@ Debug interface pads found on PCB:
 
 ![PCB](photos/TIKIpinout.jpg)
 
+### Accelerometer
+
+An additional IC is present on the PCB with the following package marking:
+
+```text
+SF
+422
+```
+
+![IMU](photos/imu.jpeg)
+
+### Possible External Memory
+
+A second unidentified IC is present on the PCB.
+
+Based on PCB context and package type, it is likely used as external non-volatile memory for firmware, configuration data, or user data storage.
+
+```text
+R80X
+250AV
+```
+
+![FLASH](photos/flash.jpeg)
+
 ## SWD Access
 
 Connection tested using:
