@@ -1,6 +1,3 @@
-# zabka-triki-hardware
-Reverse engineering notes, PCB photos, SWD pinout and debugging information for the Żabka Triki device based on nRF52810.
-
 # Żabka Triki Hardware Notes
 
 This repository contains notes about the Żabka "Triki" BLE gaming device.
