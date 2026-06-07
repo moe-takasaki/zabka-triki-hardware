@@ -29,6 +29,8 @@ SF
 422
 ```
 
+ST LSM6DSL Motion Sensor (Likely)
+
 ![IMU](photos/imu.jpeg)
 
 ## External Flash Memory
