@@ -31,16 +31,32 @@ SF
 
 ![IMU](photos/imu.jpeg)
 
-### Possible External Memory
+## External Flash Memory
 
-A second unidentified IC is present on the PCB.
+The PCB contains external flash memory devices identified as **Macronix MX25R8035F**.
 
-Based on PCB context and package type, it is likely used as external non-volatile memory for firmware, configuration data, or user data storage.
+Package marking:
 
 ```text
 R80X
 250AV
 ```
+
+Identification was confirmed using a CH341A programmer and NeoProgrammer.
+
+### Specifications
+
+- Manufacturer: Macronix
+- Part Number: MX25R8035F
+- Capacity: 8 Mbit (1 MB)
+- Interface: SPI / Dual SPI / Quad SPI
+- Supply Voltage: 1.65 V – 3.6 V
+
+MX25R8035F devices are populated on the PCB, providing a total of **2 MB** of external non-volatile storage.
+
+![MX25R8035F Detection](photos/mx25r8035f_detected.png)
+
+*MX25R8035F detected using CH341A and NeoProgrammer.*
 
 ![FLASH](photos/flash.jpeg)
 
@@ -84,6 +100,7 @@ This means that SWD communication works correctly, but firmware readout and debu
 - [Nordic nRF52810 Datasheet](https://www.nordicsemi.com/Products/nRF52810)
 - [Free-DAP](https://github.com/ataradov/free-dap)
 - [OpenOCD](https://openocd.org/)
+- [MX25R8035F](https://www.macronix.com/Lists/Datasheet/Attachments/8749/MX25R8035F,%20Wide%20Range,%208Mb,%20v1.6.pdf)
 
 ## Disclaimer
 
