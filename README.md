@@ -52,7 +52,7 @@ Identification was confirmed using a CH341A programmer and NeoProgrammer.
 - Interface: SPI / Dual SPI / Quad SPI
 - Supply Voltage: 1.65 V – 3.6 V
 
-MX25R8035F devices are populated on the PCB, providing a total of **2 MB** of external non-volatile storage.
+MX25R8035F devices are populated on the PCB, providing a total of **1 MB** of external non-volatile storage.
 
 ![MX25R8035F Detection](photos/mx25r8035f_detected.png)
 
