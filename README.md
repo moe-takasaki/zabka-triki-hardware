@@ -334,5 +334,5 @@ One notable behavior observed in the application logic is that when the revision
 
 ## Credits and contributors
  - <a href="https://github.com/Piwencjusz">Piwencjusz</a> — PCB photos, NOR dump, OpenOCD probing, initial idea.
- - <a href="https://github.com/0x64620">0x64</a> — Deeper dive into hw and sw RE, SEGGER/J-Link analysis, README fixups. 
+ - <a href="https://github.com/moe-takasaki">tsuki</a> — Deeper dive into hw and sw RE, SEGGER/J-Link analysis, README fixups. 
  - <a href="https://github.com/AND-Y0">AND-Y0</a> — BLE communication protocol description
